@@ -35,3 +35,22 @@ var articuloBaratos = articulos.some(function(articulo){
 });
 
 console.log(articuloBaratos);
+
+let numArray = [1, 2, 3, 4, 5];
+//Push añade elementos al array
+console.log(numArray);
+function newNum(){
+    numArray.push(6,7);
+    console.log(numArray)
+};
+newNum();
+
+//Shift Eliminar el primer elemento
+let shiftArray = numArray.shift();
+console.log(numArray);
+console.log(shiftArray);
+
+//Pop Elimina el último elemento
+let popArray = numArray.pop();
+console.log(numArray);
+console.log(popArray);
